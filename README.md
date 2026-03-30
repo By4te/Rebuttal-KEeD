@@ -2,7 +2,7 @@
 
 ## Additional experiments conducted on the sleep stage datasets
 
-Table 1. A summary of SHHS dataset
+Table 1. A summary of the SHHS dataset
 | Dataset | Subjects | EEG Channel | EOG Channel | Scoring Rule | Sampling Rate |
 |---------|----------|-------------|-------------|--------------|---------------|
 | SHHS[1] | 329      | C4-A1       | ROC-LOC     | R&K          | 125 Hz        |
