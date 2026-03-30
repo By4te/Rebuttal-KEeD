@@ -11,9 +11,17 @@ Table 2. Performance comparison between ConfSleepNet and state-of-the-art method
 
 ![performance1](https://github.com/user-attachments/assets/8386d037-ec52-4b38-9c07-f8e0ba20c0ca)
 
+## Performance comparison
+
+Table 3. Comparison with low-quality modality fusion / uncertainty-aware sleep staging methods on multiple public datasets
+
+<img width="410" height="340" alt="image" src="https://github.com/user-attachments/assets/37defa9e-fd4e-4dee-a0ac-4ef4707fb8d7" />
+
+
 ## Additional experiments conducted on the multi-view datasets
 
-Table 3. Summary of multi-view datasets 
+Table 4. Summary of multi-view datasets 
+
 | Dataset    | View | Class | Size  |
 |------------|------|-------|-------|
 | HandWritten| 6    | 10    | 2000  |
@@ -36,6 +44,17 @@ Table 4. Performance comparison on multi-view datasets.
 | Scene15     | 60.60±0.13  | 64.26±0.42  | 70.17±0.13  | 66.87±0.29  | 71.28±0.32  | 72.60±0.87  | 71.06±0.87  | 73.01±1.09  |
 | CUB         | 89.51±0.24  | 85.39±1.36  | 94.33±0.73  | 91.05±0.63  | 93.28±2.75  | 94.58±1.30  | 90.50±2.51  | 95.00±2.32  |
 | PIE         | 87.99±0.56  | 81.96±1.04  | 93.38±0.80  | 93.82±0.82  | 93.89±2.46  | 94.56±1.83  | 95.15±2.81  | 95.74±1.80  |
+
+## Uncertainty Evaluation
+
+<img width="1920" height="973" alt="PIE" src="https://github.com/user-attachments/assets/c70c9f1b-4d9d-4e73-9b4a-1eb85896ef51" />
+
+Figure 1. Density of uncertainty on the PIE dataset. As the noise intensity increases, the uncertainty curves of conflicting instances also increase.
+
+<img width="1200" height="964" alt="hand" src="https://github.com/user-attachments/assets/5202e082-90a0-4446-a628-5a7b56b00744" />
+
+Figure 2. Density of uncertainty on the Handwritten dataset.
+
 
 ## Reference
 [1] Zhang, G., Cui, L., Mueller, R., Tao, S., Kim, M., Rueschman, M. N., Mariani, S., Mobley, D., and Redline, S. The national sleep research resource: towards a sleep data commons. Journal of the American Medical Informatics Association, 25:1351 – 1358, 2018.
