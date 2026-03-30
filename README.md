@@ -21,6 +21,7 @@ Table 3. Summary of multi-view datasets
 | CUB        | 2    | 200   | 11788 |
 | PIE        | 3    | 68    | 680   |
 
+
 Table 4. Performance comparison on multi-view datasets.
 | Dataset     | EDL[5]      | DCCAE[6]    | CAML[7]     | ETMC[8]     | RCML[9]     | CCML[10]     | TMCEK[11]    | CMAM (Ours) |
 |-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
@@ -28,6 +29,15 @@ Table 4. Performance comparison on multi-view datasets.
 | Scene15     | 60.60±0.13  | 64.26±0.42  | 70.17±0.13  | 66.87±0.29  | 71.28±0.32  | 72.60±0.87  | 71.06±0.87  | 73.01±1.09  |
 | CUB         | 89.51±0.24  | 85.39±1.36  | 94.33±0.73  | 91.05±0.63  | 93.28±2.75  | 94.58±1.30  | 90.50±2.51  | 95.00±2.32  |
 | PIE         | 87.99±0.56  | 81.96±1.04  | 93.38±0.80  | 93.82±0.82  | 93.89±2.46  | 94.56±1.83  | 95.15±2.81  | 95.74±1.80  |
+
+HandWritten: https://archive.ics.uci.edu/dataset/72/multiple+features 
+
+Scene15: https://figshare.com/articles/dataset/15-Scene_Image_Dataset/7007177/1 
+
+CUB: https://www.vision.caltech.edu/visipedia/CUB-200.html 
+
+PIE: http://www.cs.cmu.edu/afs/cs/project/PIE/MultiPie/Home.html
+
 
 ## Reference
 [1] Zhang, G., Cui, L., Mueller, R., Tao, S., Kim, M., Rueschman, M. N., Mariani, S., Mobley, D., and Redline, S. The national sleep research resource: towards a sleep data commons. Journal of the American Medical Informatics Association, 25:1351 – 1358, 2018.
